@@ -78,6 +78,6 @@ Get the realtime conversion rates!
 `myra currency "curr1" "curr2"`  
 
 
-![](./images/currency.png) 
+![](./images/inrusd.png) 
 
  
