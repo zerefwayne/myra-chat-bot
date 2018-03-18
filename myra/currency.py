@@ -10,7 +10,7 @@ class Currency(object):
 
 		conv = xrate/yrate
 
-		message = "1 "+ str(x) +" -> "+ str(conv) +" "+ str(y)
+		message = "1 "+ str(y) +" -> "+ str(conv) +" "+ str(x)
 		print(message)
 		return message
 		
