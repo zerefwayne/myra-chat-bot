@@ -16,6 +16,7 @@ from currency import Currency
 from cricket import Cricket
 
 
+
 p = pprint.PrettyPrinter()
 BOT_MAIL = "myra-bot@myra.zulipchat.com"
 
@@ -30,9 +31,9 @@ class ZulipBot(object):
 		self.holiday = Holiday()
 		self.currency = Currency()
 		self.cricket = Cricket()
-		
+						
 		print("done init")
-		self.subkeys = ["translate", "hackernews", "hn", "HN", "cricnews", "movie", "currency", "holiday", "lyrics"]
+		self.subkeys = ["translate", "hackernews", "hn", "hotel", "HN", "askme", "cricnews", "movie", "currency", "holiday", "lyrics"]
 
 	def subscribe_all(self):
 		json = self.client.get_streams()["streams"]
@@ -94,6 +95,7 @@ class ZulipBot(object):
 					"subject": stream_topic,
 					"content": quote_data
 					})
+			
 			if content[1].lower() == 'currency':
 				x = content[2]
 				y = content[3]
@@ -114,6 +116,7 @@ class ZulipBot(object):
 					"to": msg["display_recipient"],
 					"content": news  
 					})
+			
 			
 			if content[1].lower() == 'hackernews' or content[1].lower() == 'hn' or content[1].lower() == 'HN':
 				news = self.hacknews.get_hackernews()
