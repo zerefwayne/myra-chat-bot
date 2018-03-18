@@ -1,6 +1,8 @@
 # Welcome to Myra Bot!
 
 
+![](./images/download.png)
+
 ## **Myra Bot** is a zulip chatbot   
 
 
