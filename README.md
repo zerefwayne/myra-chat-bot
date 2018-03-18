@@ -41,27 +41,41 @@ Translate messages received in different languages using out Zulip translate int
 Get top 10 stories of hackernews in no time in your Zulip server.  
 `myra HN`  
 
-![](./images/HN.png)    
+![](./images/hackernews.png)    
 
 ### Cricket Scores:
 Know all about cricket scores without leaving Zulip.  
 `myra cricnews`  
+
+
 ![](./images/cricnews.png)  
 
 ### Lyrics:
 Find the lyrics to your fav song and jam to the beats!  
-`myra lyrics "artist" "song"`
+`myra lyrics "artist" "song"`  
+
+
+![](./images/lyrics.png) 
 
 ### Movie:
 Find the details to your fav movie !  
-`myra movie "title"`
+`myra movie "title"`  
+
+
+![](./images/movie.png) 
 
 ### Holidays:
 Find the list of all the holidays!  
-`myra holiday `
+`myra holiday `  
+
+
+![](./images/holiday.png) 
 
 ### Currency:
 Get the realtime conversion rates!  
-`myra currency "curr1" "curr2"`
+`myra currency "curr1" "curr2"`  
+
+
+![](./images/currency.png) 
 
  
